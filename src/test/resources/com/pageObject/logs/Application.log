@@ -1,0 +1,108 @@
+06/05/2021 23:44:23 devpinoyLogger Config File loaded!
+06/05/2021 23:44:23 devpinoyLogger OR File loaded!
+06/05/2021 23:44:28 devpinoyLogger Firefox browser launched!
+06/05/2021 23:44:30 devpinoyLogger Navigated to : https://ui.cogmento.com/
+06/05/2021 23:44:36 devpinoyLogger Logged into application
+06/05/2021 23:44:37 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:44:37 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (fda3673f-3ad3-4092-baa1-fc69121279b7)] -> xpath: //a[@class='item'][@href="/contacts"]]
+06/05/2021 23:44:37 devpinoyLogger Clicked on element //span[text()='Contacts']
+06/05/2021 23:44:38 devpinoyLogger Clicked on element //button[text()='Create']
+06/05/2021 23:44:39 devpinoyLogger Entered data in element //input[@name='first_name'] with value Bob
+06/05/2021 23:44:40 devpinoyLogger Entered data in element //input[@name='last_name'] with value Marley
+06/05/2021 23:44:40 devpinoyLogger Entered data in element //div[@name='company']//input with value Microsoft
+06/05/2021 23:44:40 devpinoyLogger Clicked on element //button[text()='Save']
+06/05/2021 23:44:40 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:44:41 devpinoyLogger Clicked on element (//i[@class='settings icon'])[1]
+06/05/2021 23:44:42 devpinoyLogger Clicked on element //span[text()='Log Out']
+06/05/2021 23:44:42 devpinoyLogger Logged out of application
+06/05/2021 23:44:53 devpinoyLogger Logged into application
+06/05/2021 23:44:53 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:44:54 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (fda3673f-3ad3-4092-baa1-fc69121279b7)] -> xpath: //a[@class='item'][@href="/contacts"]]
+06/05/2021 23:44:55 devpinoyLogger Clicked on element //span[text()='Contacts']
+06/05/2021 23:44:55 devpinoyLogger Clicked on element //button[text()='Create']
+06/05/2021 23:44:56 devpinoyLogger Entered data in element //input[@name='first_name'] with value John
+06/05/2021 23:44:57 devpinoyLogger Entered data in element //input[@name='last_name'] with value Smith
+06/05/2021 23:44:57 devpinoyLogger Entered data in element //div[@name='company']//input with value Google
+06/05/2021 23:44:58 devpinoyLogger Clicked on element //button[text()='Save']
+06/05/2021 23:44:58 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:44:59 devpinoyLogger Clicked on element (//i[@class='settings icon'])[1]
+06/05/2021 23:45:00 devpinoyLogger Clicked on element //span[text()='Log Out']
+06/05/2021 23:45:00 devpinoyLogger Logged out of application
+06/05/2021 23:45:10 devpinoyLogger Logged into application
+06/05/2021 23:45:11 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:45:11 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (fda3673f-3ad3-4092-baa1-fc69121279b7)] -> xpath: //a[@class='item'][@href="/contacts"]]
+06/05/2021 23:45:12 devpinoyLogger Clicked on element //span[text()='Contacts']
+06/05/2021 23:45:13 devpinoyLogger Clicked on element //button[text()='Create']
+06/05/2021 23:45:13 devpinoyLogger Entered data in element //input[@name='first_name'] with value Mike
+06/05/2021 23:45:14 devpinoyLogger Entered data in element //input[@name='last_name'] with value Jones
+06/05/2021 23:45:14 devpinoyLogger Entered data in element //div[@name='company']//input with value FIS
+06/05/2021 23:45:15 devpinoyLogger Clicked on element //button[text()='Save']
+06/05/2021 23:45:15 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:45:16 devpinoyLogger Clicked on element (//i[@class='settings icon'])[1]
+06/05/2021 23:45:16 devpinoyLogger Clicked on element //span[text()='Log Out']
+06/05/2021 23:45:16 devpinoyLogger Logged out of application
+06/05/2021 23:45:27 devpinoyLogger Logged into application
+06/05/2021 23:45:27 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:45:28 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (fda3673f-3ad3-4092-baa1-fc69121279b7)] -> xpath: //a[@class='item'][@href="/contacts"]]
+06/05/2021 23:45:29 devpinoyLogger Clicked on element //span[text()='Contacts']
+06/05/2021 23:45:29 devpinoyLogger Clicked on element //button[text()='Create']
+06/05/2021 23:45:30 devpinoyLogger Entered data in element //input[@name='first_name'] with value Phil
+06/05/2021 23:45:31 devpinoyLogger Entered data in element //input[@name='last_name'] with value Murray
+06/05/2021 23:45:31 devpinoyLogger Entered data in element //div[@name='company']//input with value Facebook
+06/05/2021 23:45:32 devpinoyLogger Clicked on element //button[text()='Save']
+06/05/2021 23:45:32 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:45:33 devpinoyLogger Clicked on element (//i[@class='settings icon'])[1]
+06/05/2021 23:45:33 devpinoyLogger Clicked on element //span[text()='Log Out']
+06/05/2021 23:45:33 devpinoyLogger Logged out of application
+06/05/2021 23:45:44 devpinoyLogger Logged into application
+06/05/2021 23:45:44 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:45:44 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (fda3673f-3ad3-4092-baa1-fc69121279b7)] -> xpath: //a[@class='item'][@href="/deals"]]
+06/05/2021 23:45:45 devpinoyLogger Clicked on element //span[text()='Deals']
+06/05/2021 23:45:46 devpinoyLogger Clicked on element //button[text()='Create']
+06/05/2021 23:45:46 devpinoyLogger Entered data in element //input[@name='title'] with value Automobile
+06/05/2021 23:45:46 devpinoyLogger Entered data in element //div[@name='company']//input with value Tesla
+06/05/2021 23:45:47 devpinoyLogger Entered data in element //textarea[@name='description'] with value Battery operated cars
+06/05/2021 23:45:47 devpinoyLogger Clicked on element //button[text()='Save']
+06/05/2021 23:45:47 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:45:48 devpinoyLogger Clicked on element (//i[@class='settings icon'])[1]
+06/05/2021 23:45:48 devpinoyLogger Clicked on element //span[text()='Log Out']
+06/05/2021 23:45:48 devpinoyLogger Logged out of application
+06/05/2021 23:45:58 devpinoyLogger Logged into application
+06/05/2021 23:45:59 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:46:00 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (fda3673f-3ad3-4092-baa1-fc69121279b7)] -> xpath: //a[@class='item'][@href="/deals"]]
+06/05/2021 23:46:00 devpinoyLogger Clicked on element //span[text()='Deals']
+06/05/2021 23:46:01 devpinoyLogger Clicked on element //button[text()='Create']
+06/05/2021 23:46:01 devpinoyLogger Entered data in element //input[@name='title'] with value Aviation
+06/05/2021 23:46:01 devpinoyLogger Entered data in element //div[@name='company']//input with value SpaceX
+06/05/2021 23:46:02 devpinoyLogger Entered data in element //textarea[@name='description'] with value Starship for better future
+06/05/2021 23:46:02 devpinoyLogger Clicked on element //button[text()='Save']
+06/05/2021 23:46:02 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:46:03 devpinoyLogger Clicked on element (//i[@class='settings icon'])[1]
+06/05/2021 23:46:03 devpinoyLogger Clicked on element //span[text()='Log Out']
+06/05/2021 23:46:03 devpinoyLogger Logged out of application
+06/05/2021 23:46:14 devpinoyLogger Logged into application
+06/05/2021 23:46:14 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:46:14 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (fda3673f-3ad3-4092-baa1-fc69121279b7)] -> xpath: //a[@class='item'][@href="/deals"]]
+06/05/2021 23:46:15 devpinoyLogger Clicked on element //span[text()='Deals']
+06/05/2021 23:46:16 devpinoyLogger Clicked on element //button[text()='Create']
+06/05/2021 23:46:17 devpinoyLogger Entered data in element //input[@name='title'] with value Food manufacuring
+06/05/2021 23:46:17 devpinoyLogger Entered data in element //div[@name='company']//input with value Nestle
+06/05/2021 23:46:18 devpinoyLogger Entered data in element //textarea[@name='description'] with value Making Maggi since generations
+06/05/2021 23:46:18 devpinoyLogger Clicked on element //button[text()='Save']
+06/05/2021 23:46:18 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:46:19 devpinoyLogger Clicked on element (//i[@class='settings icon'])[1]
+06/05/2021 23:46:19 devpinoyLogger Clicked on element //span[text()='Log Out']
+06/05/2021 23:46:19 devpinoyLogger Logged out of application
+06/05/2021 23:46:30 devpinoyLogger Logged into application
+06/05/2021 23:46:30 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:46:31 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (fda3673f-3ad3-4092-baa1-fc69121279b7)] -> xpath: //a[@class='item'][@href="/deals"]]
+06/05/2021 23:46:31 devpinoyLogger Clicked on element //span[text()='Deals']
+06/05/2021 23:46:32 devpinoyLogger Clicked on element //button[text()='Create']
+06/05/2021 23:46:32 devpinoyLogger Entered data in element //input[@name='title'] with value Information Technology
+06/05/2021 23:46:33 devpinoyLogger Entered data in element //div[@name='company']//input with value FIS
+06/05/2021 23:46:33 devpinoyLogger Entered data in element //textarea[@name='description'] with value My existing company
+06/05/2021 23:46:33 devpinoyLogger Clicked on element //button[text()='Save']
+06/05/2021 23:46:33 devpinoyLogger Found element: //span[text()='Home']//preceding::i on the page.
+06/05/2021 23:46:34 devpinoyLogger Clicked on element (//i[@class='settings icon'])[1]
+06/05/2021 23:46:35 devpinoyLogger Clicked on element //span[text()='Log Out']
+06/05/2021 23:46:35 devpinoyLogger Logged out of application

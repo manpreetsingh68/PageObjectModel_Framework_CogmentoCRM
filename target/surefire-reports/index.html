@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Cogmento_Suite">
+              <span class="suite-name border-passed">Cogmento Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Cogmento_Suite">
+                    <span>C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\test\resources\com\pageObject\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Cogmento_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Cogmento_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Cogmento_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Cogmento_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Cogmento_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Cogmento_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cogmento_Suite" class="hide-methods passed suite-Cogmento_Suite"> (hide)</a> <!-- hide-methods passed suite-Cogmento_Suite -->
+                      <a href="#" panel-name="suite-Cogmento_Suite" class="show-methods passed suite-Cogmento_Suite"> (show)</a> <!-- show-methods passed suite-Cogmento_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Cogmento_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.pageObject.testcases.CreateNewContactTest" hash-for-method="createNewContactTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})">createNewContactTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.pageObject.testcases.CreateNewContactTest" hash-for-method="createNewContactTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})">createNewContactTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.pageObject.testcases.CreateNewContactTest" hash-for-method="createNewContactTest({company=Google, lastname=Smith, runmode=Y, firstname=John})">createNewContactTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.pageObject.testcases.CreateNewContactTest" hash-for-method="createNewContactTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})">createNewContactTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.pageObject.testcases.CreateNewDealTest" hash-for-method="createNewDealTest({company=SpaceX, description=Starship for better future, runmode=Y, title=Aviation})">createNewDealTest({company=SpaceX, description=Starship for better future, runmode=Y, title=Aviation})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.pageObject.testcases.CreateNewDealTest" hash-for-method="createNewDealTest({company=Nestle, description=Making Maggi since generations, runmode=Y, title=Food manufacuring})">createNewDealTest({company=Nestle, description=Making Maggi since generations, runmode=Y, title=Food manufacuring})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.pageObject.testcases.CreateNewDealTest" hash-for-method="createNewDealTest({company=FIS, description=My existing company, runmode=Y, title=Information Technology})">createNewDealTest({company=FIS, description=My existing company, runmode=Y, title=Information Technology})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Cogmento_Suite" title="com.pageObject.testcases.CreateNewDealTest" hash-for-method="createNewDealTest({company=Tesla, description=Battery operated cars, runmode=Y, title=Automobile})">createNewDealTest({company=Tesla, description=Battery operated cars, runmode=Y, title=Automobile})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cogmento_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Cogmento_Suite" class="panel Cogmento_Suite">
+          <div class="suite-Cogmento_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pageObject.testcases.CreateNewDealTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewDealTest({company=SpaceX, description=Starship for better future, runmode=Y, title=Aviation})">
+                  </a> <!-- createNewDealTest({company=SpaceX, description=Starship for better future, runmode=Y, title=Aviation}) -->
+                  <span class="method-name">createNewDealTest</span>
+                  <span class="parameters">({company=SpaceX, description=Starship for better future, runmode=Y, title=Aviation})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewDealTest({company=Nestle, description=Making Maggi since generations, runmode=Y, title=Food manufacuring})">
+                  </a> <!-- createNewDealTest({company=Nestle, description=Making Maggi since generations, runmode=Y, title=Food manufacuring}) -->
+                  <span class="method-name">createNewDealTest</span>
+                  <span class="parameters">({company=Nestle, description=Making Maggi since generations, runmode=Y, title=Food manufacuring})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewDealTest({company=FIS, description=My existing company, runmode=Y, title=Information Technology})">
+                  </a> <!-- createNewDealTest({company=FIS, description=My existing company, runmode=Y, title=Information Technology}) -->
+                  <span class="method-name">createNewDealTest</span>
+                  <span class="parameters">({company=FIS, description=My existing company, runmode=Y, title=Information Technology})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewDealTest({company=Tesla, description=Battery operated cars, runmode=Y, title=Automobile})">
+                  </a> <!-- createNewDealTest({company=Tesla, description=Battery operated cars, runmode=Y, title=Automobile}) -->
+                  <span class="method-name">createNewDealTest</span>
+                  <span class="parameters">({company=Tesla, description=Battery operated cars, runmode=Y, title=Automobile})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cogmento_Suite-class-passed -->
+          <div class="suite-Cogmento_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pageObject.testcases.CreateNewContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewContactTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})">
+                  </a> <!-- createNewContactTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil}) -->
+                  <span class="method-name">createNewContactTest</span>
+                  <span class="parameters">({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewContactTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})">
+                  </a> <!-- createNewContactTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob}) -->
+                  <span class="method-name">createNewContactTest</span>
+                  <span class="parameters">({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewContactTest({company=Google, lastname=Smith, runmode=Y, firstname=John})">
+                  </a> <!-- createNewContactTest({company=Google, lastname=Smith, runmode=Y, firstname=John}) -->
+                  <span class="method-name">createNewContactTest</span>
+                  <span class="parameters">({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewContactTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})">
+                  </a> <!-- createNewContactTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike}) -->
+                  <span class="method-name">createNewContactTest</span>
+                  <span class="parameters">({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cogmento_Suite-class-passed -->
+        </div> <!-- panel Cogmento_Suite -->
+        <div panel-name="test-xml-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\test\resources\com\pageObject\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Cogmento Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.pageObject.listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Add Contacts Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pageObject.testcases.CreateNewContactTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Contacts Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Add Deal Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pageObject.testcases.CreateNewDealTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Deal Test --&gt;
+&lt;/suite&gt; &lt;!-- Cogmento Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Cogmento Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Add Contacts Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Add Deal Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Cogmento Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Cogmento Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Cogmento_Suite');
+function tableData_Cogmento_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createNewContactTest')
+data.setCell(0, 2, 'com.pageObject.testcases.CreateNewContactTest')
+data.setCell(0, 3, 5389);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createNewContactTest')
+data.setCell(1, 2, 'com.pageObject.testcases.CreateNewContactTest')
+data.setCell(1, 3, 5324);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createNewDealTest')
+data.setCell(2, 2, 'com.pageObject.testcases.CreateNewDealTest')
+data.setCell(2, 3, 4767);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createNewContactTest')
+data.setCell(3, 2, 'com.pageObject.testcases.CreateNewContactTest')
+data.setCell(3, 3, 4732);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createNewContactTest')
+data.setCell(4, 2, 'com.pageObject.testcases.CreateNewContactTest')
+data.setCell(4, 3, 4614);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createNewDealTest')
+data.setCell(5, 2, 'com.pageObject.testcases.CreateNewDealTest')
+data.setCell(5, 3, 3989);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createNewDealTest')
+data.setCell(6, 2, 'com.pageObject.testcases.CreateNewDealTest')
+data.setCell(6, 3, 3873);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createNewDealTest')
+data.setCell(7, 2, 'com.pageObject.testcases.CreateNewDealTest')
+data.setCell(7, 3, 3661);
+window.suiteTableData['Cogmento_Suite']= { tableData: data, tableDiv: 'times-div-Cogmento_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-Cogmento_Suite">
+              </div> <!-- times-div-Cogmento_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Cogmento Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewContactTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> Phil Murray</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Thu_May_06_23_45_32_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewContactTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> Bob Marley</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Thu_May_06_23_44_40_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewContactTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> John Smith</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Thu_May_06_23_44_58_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewContactTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> Mike Jones</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Thu_May_06_23_45_15_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewDealTest({company=SpaceX, description=Starship for better future, runmode=Y, title=Aviation})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> null null</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Thu_May_06_23_46_02_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewDealTest({company=Nestle, description=Making Maggi since generations, runmode=Y, title=Food manufacuring})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> null null</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Thu_May_06_23_46_18_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewDealTest({company=FIS, description=My existing company, runmode=Y, title=Information Technology})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> null null</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Thu_May_06_23_46_34_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewDealTest({company=Tesla, description=Battery operated cars, runmode=Y, title=Automobile})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Contact added successfully-> null null</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=Thu_May_06_23_45_47_IST_2021.jpg>Screenshot</a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Cogmento_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pageObject.testcases.CreateNewContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewContactTest({company=Microsoft, lastname=Marley, runmode=Y, firstname=Bob})</span>
+                <span class="method-start">5515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">10825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">17043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewContactTest({company=Google, lastname=Smith, runmode=Y, firstname=John})</span>
+                <span class="method-start">22483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">28122 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">34441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewContactTest({company=FIS, lastname=Jones, runmode=Y, firstname=Mike})</span>
+                <span class="method-start">39949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">44852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">51179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewContactTest({company=Facebook, lastname=Murray, runmode=Y, firstname=Phil})</span>
+                <span class="method-start">56703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">62200 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pageObject.testcases.CreateNewDealTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">67925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewDealTest({company=Tesla, description=Battery operated cars, runmode=Y, title=Automobile})</span>
+                <span class="method-start">73402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">77175 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">82859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewDealTest({company=SpaceX, description=Starship for better future, runmode=Y, title=Aviation})</span>
+                <span class="method-start">88268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">92376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">98051 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewDealTest({company=Nestle, description=Making Maggi since generations, runmode=Y, title=Food manufacuring})</span>
+                <span class="method-start">103416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">108312 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">114031 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewDealTest({company=FIS, description=My existing company, runmode=Y, title=Information Technology})</span>
+                <span class="method-start">119436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutOfApp</span>
+                <span class="method-start">123452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">129538 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

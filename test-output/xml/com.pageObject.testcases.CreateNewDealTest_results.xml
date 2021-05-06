@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Deal Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.242">
+  <properties />
+  
+  
+            <testcase name="createNewDealTest" time="5.739" classname="com.pageObject.testcases.CreateNewDealTest" />
+                <testcase name="createNewDealTest" time="4.948" classname="com.pageObject.testcases.CreateNewDealTest" />
+                <testcase name="createNewDealTest" time="4.707" classname="com.pageObject.testcases.CreateNewDealTest" />
+                <testcase name="createNewDealTest" time="4.848" classname="com.pageObject.testcases.CreateNewDealTest" />
+      
+</testsuite>

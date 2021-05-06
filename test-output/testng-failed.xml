@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cogmento Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.pageObject.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Add Contacts Test(failed)">
+    <classes>
+      <class name="com.pageObject.testcases.CreateNewContactTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApp"/>
+          <include name="createNewContactTest"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- com.pageObject.testcases.CreateNewContactTest -->
+    </classes>
+  </test> <!-- Add Contacts Test(failed) -->
+  <test thread-count="5" name="Add Deal Test(failed)">
+    <classes>
+      <class name="com.pageObject.testcases.CreateNewDealTest">
+        <methods>
+          <include name="createNewDealTest"/>
+          <include name="tearDown"/>
+          <include name="loginToApp"/>
+          <include name="logoutOfApp"/>
+        </methods>
+      </class> <!-- com.pageObject.testcases.CreateNewDealTest -->
+    </classes>
+  </test> <!-- Add Deal Test(failed) -->
+</suite> <!-- Failed suite [Cogmento Suite] -->

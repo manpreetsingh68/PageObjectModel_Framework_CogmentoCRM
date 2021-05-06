@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Contacts Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.059">
+  <properties />
+  
+  
+            <testcase name="createNewContactTest" time="5.324" classname="com.pageObject.testcases.CreateNewContactTest" />
+                <testcase name="createNewContactTest" time="4.614" classname="com.pageObject.testcases.CreateNewContactTest" />
+                <testcase name="createNewContactTest" time="5.389" classname="com.pageObject.testcases.CreateNewContactTest" />
+                <testcase name="createNewContactTest" time="4.732" classname="com.pageObject.testcases.CreateNewContactTest" />
+      
+</testsuite>

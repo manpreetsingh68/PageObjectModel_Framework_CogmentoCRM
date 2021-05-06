@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Cogmento Suite" >
+	
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+		<listener class-name="com.pageObject.listeners.CustomListeners"/>
+	</listeners>
+	
+	<test name="Add Contacts Test">
+		<classes>
+			<class name="com.pageObject.testcases.CreateNewContactTest" />
+		</classes>
+	</test>
+	<test name="Add Deal Test">
+		<classes>
+			<class name="com.pageObject.testcases.CreateNewDealTest" />
+		</classes>
+	</test>
+	
+</suite>
