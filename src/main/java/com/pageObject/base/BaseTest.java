@@ -1,5 +1,8 @@
 package com.pageObject.base;
 
+import java.util.Hashtable;
+
+import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -23,4 +26,11 @@ public class BaseTest {
 		basePage.quit();
 	}
 	
+	public void isTestRunnable(Hashtable<String, String> data) {
+		if(data.get("runmode").equalsIgnoreCase("N") || data.get("runmode").equalsIgnoreCase("No")) { 
+			throw new SkipException("Skipping the test case as run mode is set to NO");
+		}	
+	}
 }
+	
+

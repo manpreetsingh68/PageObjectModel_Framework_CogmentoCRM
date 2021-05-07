@@ -4,7 +4,6 @@ import java.util.Hashtable;
 
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import com.pageObject.base.BasePage;
@@ -19,10 +18,7 @@ public class CreateNewDealTest extends BaseTest {
 	@Test(dataProviderClass=TestUtil.class, dataProvider="dp")
 	public void createNewDealTest(Hashtable<String, String> data) {
 		
-		if(data.get("runmode").equalsIgnoreCase("N") || data.get("runmode").equalsIgnoreCase("No")) {
-			throw new SkipException("Skipping the test case as run mode is set to NO");
-		}
-		
+		isTestRunnable(data);
 		HomePage homePage = new HomePage();
 		Assert.assertTrue(homePage.verifyHomePageLoads(), "User is not able to land on Home Page");
 		
