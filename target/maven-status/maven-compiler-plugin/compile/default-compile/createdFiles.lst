@@ -8,6 +8,7 @@ com\pageObject\utils\TestUtil.class
 com\pageObject\utils\TestConfig.class
 com\pageObject\listeners\CustomListeners.class
 com\pageObject\base\BaseTest.class
+com\pageObject\utils\AnnotationTransformer.class
 com\pageObject\pages\CreateNewDealPage.class
 com\pageObject\pages\DealsPage.class
 com\pageObject\base\SideMenuBar.class
@@ -15,3 +16,4 @@ com\pageObject\utils\ExtentManager.class
 com\pageObject\pages\HomePage.class
 com\pageObject\utils\MonitoringMail$1.class
 com\pageObject\utils\MonitoringMail$SMTPAuthenticator.class
+com\pageObject\utils\RetryAnalyzer.class

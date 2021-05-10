@@ -1,3 +1,4 @@
+C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\utils\RetryAnalyzer.java
 C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\base\BaseTest.java
 C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\base\BasePage.java
 C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\pages\HomePage.java
@@ -7,6 +8,7 @@ C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\l
 C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\pages\LoginPage.java
 C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\pages\CreateNewDealPage.java
 C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\utils\MonitoringMail.java
+C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\utils\AnnotationTransformer.java
 C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\pages\ContactsPage.java
 C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\utils\TestConfig.java
 C:\Users\Manpreet\eclipse-workspace\POM_Framework\src\main\java\com\pageObject\utils\ExtentManager.java

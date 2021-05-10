@@ -6,6 +6,7 @@
 		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 		<listener class-name="com.pageObject.listeners.CustomListeners"/>
+		<listener class-name="com.pageObject.utils.AnnotationTransformer"/>
 	</listeners>
 	
 	<test name="Add Contacts Test">

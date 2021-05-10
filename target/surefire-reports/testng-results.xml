@@ -11,7 +11,7 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="blank" href=Fri_May_07_23_08_31_IST_2021.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="blank" href=Mon_May_10_17_22_22_IST_2021.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[Contact added successfully-> John Smith]]>
@@ -23,7 +23,7 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="blank" href=Fri_May_07_23_08_47_IST_2021.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="blank" href=Mon_May_10_17_22_40_IST_2021.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[Contact added successfully-> Mike Jones]]>
@@ -35,7 +35,7 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="blank" href=Fri_May_07_23_09_02_IST_2021.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="blank" href=Mon_May_10_17_22_57_IST_2021.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[Contact added successfully-> Phil Murray]]>
@@ -47,7 +47,7 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="blank" href=Fri_May_07_23_09_18_IST_2021.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="blank" href=Mon_May_10_17_23_19_IST_2021.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[Contact added successfully-> null null]]>
@@ -59,7 +59,7 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="blank" href=Fri_May_07_23_09_32_IST_2021.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="blank" href=Mon_May_10_17_23_38_IST_2021.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[Contact added successfully-> null null]]>
@@ -71,7 +71,7 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="blank" href=Fri_May_07_23_09_47_IST_2021.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="blank" href=Mon_May_10_17_23_55_IST_2021.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[Contact added successfully-> null null]]>
@@ -83,7 +83,7 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="blank" href=Fri_May_07_23_10_02_IST_2021.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="blank" href=Mon_May_10_17_24_12_IST_2021.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[Contact added successfully-> null null]]>
@@ -95,19 +95,19 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="blank" href=Fri_May_07_23_10_17_IST_2021.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="blank" href=Mon_May_10_17_24_28_IST_2021.jpg>Screenshot</a>]]>
     </line>
   </reporter-output>
-  <suite name="Cogmento Suite" duration-ms="121680" started-at="2021-05-07T17:38:21Z" finished-at="2021-05-07T17:40:22Z">
+  <suite name="Cogmento Suite" duration-ms="143165" started-at="2021-05-10T11:52:11Z" finished-at="2021-05-10T11:54:34Z">
     <groups>
     </groups>
-    <test name="Add Contacts Test" duration-ms="63056" started-at="2021-05-07T17:38:21Z" finished-at="2021-05-07T17:39:24Z">
+    <test name="Add Contacts Test" duration-ms="75862" started-at="2021-05-10T11:52:11Z" finished-at="2021-05-10T11:53:26Z">
       <class name="com.pageObject.testcases.CreateNewContactTest">
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="loginToApp" is-config="true" duration-ms="5379" started-at="2021-05-07T17:38:21Z" finished-at="2021-05-07T17:38:26Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="loginToApp" is-config="true" duration-ms="5460" started-at="2021-05-10T11:52:11Z" finished-at="2021-05-10T11:52:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="createNewContactTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="createNewContactTest" duration-ms="4488" started-at="2021-05-07T17:38:26Z" data-provider="dp" finished-at="2021-05-07T17:38:30Z">
+        <test-method status="PASS" signature="createNewContactTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="createNewContactTest" duration-ms="5112" started-at="2021-05-10T11:52:16Z" data-provider="dp" finished-at="2021-05-10T11:52:21Z">
           <params>
             <param index="0">
               <value>
@@ -126,19 +126,19 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="blank" href=Fri_May_07_23_08_31_IST_2021.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="blank" href=Mon_May_10_17_22_22_IST_2021.jpg>Screenshot</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="logoutOfApp" is-config="true" duration-ms="5917" started-at="2021-05-07T17:38:31Z" finished-at="2021-05-07T17:38:37Z">
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="logoutOfApp" is-config="true" duration-ms="5928" started-at="2021-05-10T11:52:22Z" finished-at="2021-05-10T11:52:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApp -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="loginToApp" is-config="true" duration-ms="5349" started-at="2021-05-07T17:38:37Z" finished-at="2021-05-07T17:38:42Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="loginToApp" is-config="true" duration-ms="5388" started-at="2021-05-10T11:52:28Z" finished-at="2021-05-10T11:52:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="createNewContactTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="createNewContactTest" duration-ms="4663" started-at="2021-05-07T17:38:42Z" data-provider="dp" finished-at="2021-05-07T17:38:47Z">
+        <test-method status="PASS" signature="createNewContactTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="createNewContactTest" duration-ms="6273" started-at="2021-05-10T11:52:33Z" data-provider="dp" finished-at="2021-05-10T11:52:40Z">
           <params>
             <param index="0">
               <value>
@@ -157,19 +157,19 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="blank" href=Fri_May_07_23_08_47_IST_2021.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="blank" href=Mon_May_10_17_22_40_IST_2021.jpg>Screenshot</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="logoutOfApp" is-config="true" duration-ms="5568" started-at="2021-05-07T17:38:47Z" finished-at="2021-05-07T17:38:53Z">
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="logoutOfApp" is-config="true" duration-ms="5806" started-at="2021-05-10T11:52:40Z" finished-at="2021-05-10T11:52:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApp -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="loginToApp" is-config="true" duration-ms="5343" started-at="2021-05-07T17:38:53Z" finished-at="2021-05-07T17:38:58Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="loginToApp" is-config="true" duration-ms="5412" started-at="2021-05-10T11:52:46Z" finished-at="2021-05-10T11:52:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="createNewContactTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="createNewContactTest" duration-ms="4403" started-at="2021-05-07T17:38:58Z" data-provider="dp" finished-at="2021-05-07T17:39:02Z">
+        <test-method status="PASS" signature="createNewContactTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="createNewContactTest" duration-ms="5529" started-at="2021-05-10T11:52:51Z" data-provider="dp" finished-at="2021-05-10T11:52:57Z">
           <params>
             <param index="0">
               <value>
@@ -188,19 +188,19 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="blank" href=Fri_May_07_23_09_02_IST_2021.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="blank" href=Mon_May_10_17_22_57_IST_2021.jpg>Screenshot</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="logoutOfApp" is-config="true" duration-ms="5910" started-at="2021-05-07T17:39:02Z" finished-at="2021-05-07T17:39:08Z">
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="logoutOfApp" is-config="true" duration-ms="5958" started-at="2021-05-10T11:52:57Z" finished-at="2021-05-10T11:53:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApp -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="loginToApp" is-config="true" duration-ms="5342" started-at="2021-05-07T17:39:08Z" finished-at="2021-05-07T17:39:14Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="loginToApp" is-config="true" duration-ms="5643" started-at="2021-05-10T11:53:03Z" finished-at="2021-05-10T11:53:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="createNewContactTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="createNewContactTest" duration-ms="3776" started-at="2021-05-07T17:39:14Z" data-provider="dp" finished-at="2021-05-07T17:39:17Z">
+        <test-method status="PASS" signature="createNewContactTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="createNewContactTest" duration-ms="7884" started-at="2021-05-10T11:53:08Z" data-provider="dp" finished-at="2021-05-10T11:53:16Z">
           <params>
             <param index="0">
               <value>
@@ -219,23 +219,23 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="blank" href=Fri_May_07_23_09_18_IST_2021.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="blank" href=Mon_May_10_17_23_19_IST_2021.jpg>Screenshot</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@5d8bafa9]" name="logoutOfApp" is-config="true" duration-ms="5985" started-at="2021-05-07T17:39:18Z" finished-at="2021-05-07T17:39:24Z">
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewContactTest@57abad67]" name="logoutOfApp" is-config="true" duration-ms="7181" started-at="2021-05-10T11:53:19Z" finished-at="2021-05-10T11:53:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApp -->
       </class> <!-- com.pageObject.testcases.CreateNewContactTest -->
     </test> <!-- Add Contacts Test -->
-    <test name="Add Deal Test" duration-ms="58608" started-at="2021-05-07T17:39:24Z" finished-at="2021-05-07T17:40:22Z">
+    <test name="Add Deal Test" duration-ms="67280" started-at="2021-05-10T11:53:26Z" finished-at="2021-05-10T11:54:34Z">
       <class name="com.pageObject.testcases.CreateNewDealTest">
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="loginToApp" is-config="true" duration-ms="5347" started-at="2021-05-07T17:39:24Z" finished-at="2021-05-07T17:39:29Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="loginToApp" is-config="true" duration-ms="5500" started-at="2021-05-10T11:53:26Z" finished-at="2021-05-10T11:53:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="createNewDealTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="createNewDealTest" duration-ms="3171" started-at="2021-05-07T17:39:29Z" data-provider="dp" finished-at="2021-05-07T17:39:32Z">
+        <test-method status="PASS" signature="createNewDealTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="createNewDealTest" duration-ms="5518" started-at="2021-05-10T11:53:32Z" data-provider="dp" finished-at="2021-05-10T11:53:37Z">
           <params>
             <param index="0">
               <value>
@@ -254,19 +254,19 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="blank" href=Fri_May_07_23_09_32_IST_2021.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="blank" href=Mon_May_10_17_23_38_IST_2021.jpg>Screenshot</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createNewDealTest -->
-        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="logoutOfApp" is-config="true" duration-ms="5652" started-at="2021-05-07T17:39:32Z" finished-at="2021-05-07T17:39:38Z">
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="logoutOfApp" is-config="true" duration-ms="5867" started-at="2021-05-10T11:53:38Z" finished-at="2021-05-10T11:53:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApp -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="loginToApp" is-config="true" duration-ms="5337" started-at="2021-05-07T17:39:38Z" finished-at="2021-05-07T17:39:43Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="loginToApp" is-config="true" duration-ms="5383" started-at="2021-05-10T11:53:44Z" finished-at="2021-05-10T11:53:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="createNewDealTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="createNewDealTest" duration-ms="3843" started-at="2021-05-07T17:39:43Z" data-provider="dp" finished-at="2021-05-07T17:39:47Z">
+        <test-method status="PASS" signature="createNewDealTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="createNewDealTest" duration-ms="5408" started-at="2021-05-10T11:53:49Z" data-provider="dp" finished-at="2021-05-10T11:53:54Z">
           <params>
             <param index="0">
               <value>
@@ -285,19 +285,19 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="blank" href=Fri_May_07_23_09_47_IST_2021.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="blank" href=Mon_May_10_17_23_55_IST_2021.jpg>Screenshot</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createNewDealTest -->
-        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="logoutOfApp" is-config="true" duration-ms="5823" started-at="2021-05-07T17:39:47Z" finished-at="2021-05-07T17:39:53Z">
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="logoutOfApp" is-config="true" duration-ms="5811" started-at="2021-05-10T11:53:55Z" finished-at="2021-05-10T11:54:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApp -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="loginToApp" is-config="true" duration-ms="5344" started-at="2021-05-07T17:39:53Z" finished-at="2021-05-07T17:39:58Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="loginToApp" is-config="true" duration-ms="5381" started-at="2021-05-10T11:54:00Z" finished-at="2021-05-10T11:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="createNewDealTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="createNewDealTest" duration-ms="3499" started-at="2021-05-07T17:39:58Z" data-provider="dp" finished-at="2021-05-07T17:40:02Z">
+        <test-method status="PASS" signature="createNewDealTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="createNewDealTest" duration-ms="5770" started-at="2021-05-10T11:54:06Z" data-provider="dp" finished-at="2021-05-10T11:54:12Z">
           <params>
             <param index="0">
               <value>
@@ -316,19 +316,19 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="blank" href=Fri_May_07_23_10_02_IST_2021.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="blank" href=Mon_May_10_17_24_12_IST_2021.jpg>Screenshot</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createNewDealTest -->
-        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="logoutOfApp" is-config="true" duration-ms="5703" started-at="2021-05-07T17:40:02Z" finished-at="2021-05-07T17:40:08Z">
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="logoutOfApp" is-config="true" duration-ms="5739" started-at="2021-05-10T11:54:12Z" finished-at="2021-05-10T11:54:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApp -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="loginToApp" is-config="true" duration-ms="5430" started-at="2021-05-07T17:40:08Z" finished-at="2021-05-07T17:40:13Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="loginToApp" is-config="true" duration-ms="5392" started-at="2021-05-10T11:54:18Z" finished-at="2021-05-10T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="createNewDealTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="createNewDealTest" duration-ms="3316" started-at="2021-05-07T17:40:13Z" data-provider="dp" finished-at="2021-05-07T17:40:16Z">
+        <test-method status="PASS" signature="createNewDealTest(java.util.Hashtable)[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="createNewDealTest" duration-ms="4894" started-at="2021-05-10T11:54:23Z" data-provider="dp" finished-at="2021-05-10T11:54:28Z">
           <params>
             <param index="0">
               <value>
@@ -347,15 +347,15 @@
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="blank" href=Fri_May_07_23_10_17_IST_2021.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="blank" href=Mon_May_10_17_24_28_IST_2021.jpg>Screenshot</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createNewDealTest -->
-        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="logoutOfApp" is-config="true" duration-ms="5663" started-at="2021-05-07T17:40:17Z" finished-at="2021-05-07T17:40:22Z">
+        <test-method status="PASS" signature="logoutOfApp()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="logoutOfApp" is-config="true" duration-ms="5714" started-at="2021-05-10T11:54:28Z" finished-at="2021-05-10T11:54:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOfApp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@4535b6d5]" name="tearDown" is-config="true" duration-ms="946" started-at="2021-05-07T17:40:22Z" finished-at="2021-05-07T17:40:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pageObject.testcases.CreateNewDealTest@10b9db7b]" name="tearDown" is-config="true" duration-ms="1514" started-at="2021-05-10T11:54:34Z" finished-at="2021-05-10T11:54:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
