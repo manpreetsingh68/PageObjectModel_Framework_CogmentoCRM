@@ -1,10 +1,30 @@
 package com.pageObject.base;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
 import com.pageObject.pages.ContactsPage;
 import com.pageObject.pages.DealsPage;
 
 public class SideMenuBar extends BasePage {
-
+	
+	@FindBy(xpath = "//span[text()='Contacts']")
+	private WebElement lnkContactsSpan;
+	
+	@FindBy(xpath = "//a[@class='item'][@href='/contacts']")
+	private WebElement lnkContacts;
+	
+	@FindBy(xpath = "//span[text()='Deals']")
+	private WebElement lnkDealsSpan;
+	
+	@FindBy(xpath = "//a[@class='item'][@href='/deals']")
+	private WebElement lnkDeals;
+	
+	public SideMenuBar() {
+		PageFactory.initElements(driver, this);
+	}
+	
 	public void navigateToHome() {
 	}
 
@@ -13,8 +33,8 @@ public class SideMenuBar extends BasePage {
 	}
 
 	public ContactsPage navigateToContacts() {
-		moveToElement(findElement(OR.getProperty("lnkContacts")));
-		click(OR.getProperty("lnkContactsSpan"));
+		moveToElement(lnkContacts);
+		click(lnkContactsSpan);
 		
 		return new ContactsPage();
 	}
@@ -24,8 +44,8 @@ public class SideMenuBar extends BasePage {
 	}
 
 	public DealsPage navigateToDeals() {
-		moveToElement(findElement(OR.getProperty("lnkDeals")));
-		click(OR.getProperty("lnkDealsSpan"));
+		moveToElement(lnkDeals);
+		click(lnkDealsSpan);
 		
 		return new DealsPage();
 	}

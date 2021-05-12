@@ -7,18 +7,23 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 
+import com.pageObject.pages.HomePage;
+import com.pageObject.pages.LoginPage;
+
 public class BaseTest {
 	
 	BasePage basePage = new BasePage();
+	LoginPage loginPage = new LoginPage();
+	HomePage homePage = new HomePage();
 	
 	@BeforeMethod
 	public void loginToApp() {
-		basePage.loginToApplication();
+		loginPage.loginToApplication();
 	}
 	
 	@AfterMethod
 	public void logoutOfApp() {
-		basePage.logoutOfApplication();
+		homePage.logoutOfApplication();
 	}
 	
 	@AfterSuite

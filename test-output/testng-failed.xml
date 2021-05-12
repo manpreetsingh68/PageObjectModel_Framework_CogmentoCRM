@@ -5,6 +5,7 @@
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="com.pageObject.listeners.CustomListeners"/>
+    <listener class-name="com.pageObject.utils.AnnotationTransformer"/>
   </listeners>
   <test thread-count="5" name="Add Contacts Test(failed)">
     <classes>
@@ -12,7 +13,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="loginToApp"/>
-          <include name="createNewContactTest"/>
+          <include name="createNewContactTest" invocation-numbers="0"/>
           <include name="logoutOfApp"/>
         </methods>
       </class> <!-- com.pageObject.testcases.CreateNewContactTest -->

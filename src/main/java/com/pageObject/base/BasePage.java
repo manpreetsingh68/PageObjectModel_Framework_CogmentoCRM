@@ -26,7 +26,6 @@ public class BasePage {
 
 	public static WebDriver driver;
 	public static Properties config = new Properties();
-	public static Properties OR = new Properties();
 	public static FileInputStream fis;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
 	public static ExcelUtil excel = new ExcelUtil(
@@ -53,20 +52,6 @@ public class BasePage {
 				e.printStackTrace();
 			}
 
-			try {
-				fis = new FileInputStream(
-						System.getProperty("user.dir") + "\\src\\test\\resources\\com\\pageObject\\properties\\OR.properties");
-			} catch (FileNotFoundException e) {
-				e.printStackTrace();
-			}
-
-			try {
-				OR.load(fis);
-				log.debug("OR File loaded!");
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-			
 			//Browser Build parameter from Jenkins (Optional)
 			if(System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
 				browser = System.getenv("browser");
@@ -99,57 +84,28 @@ public class BasePage {
 		}
 	}
 	
-	public void loginToApplication() {
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		driver.findElement(By.xpath(OR.getProperty("txtEmailAddress"))).sendKeys(config.getProperty("email"));
-		driver.findElement(By.xpath(OR.getProperty("txtPassword"))).sendKeys(config.getProperty("password"));
-		driver.findElement(By.xpath(OR.getProperty("btnLogin"))).click();
-		
-		log.debug("Logged into application");
-	}
-	
-	public void logoutOfApplication() {
-		waitForElementToBeVisible(OR.getProperty("btnSettingsGear"), 60);
-		click(OR.getProperty("btnSettingsGear"));
-		click(OR.getProperty("lnkLogOut"));
-		
-		log.debug("Logged out of application");
-		test.log(LogStatus.INFO, "Logged out of application");
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-	}
-	
 	public void quit() {
 		driver.quit();
 	}
 	
-	public WebElement findElement(String locator) {
-		waitForElementToBeVisible(locator, 60);
-		return driver.findElement(By.xpath(locator));
+	public WebElement findElement(By by) {
+		return driver.findElement(by);
 		
 	}
 	
-	public void click(String locator) {
-		waitForElementToBeClickable(locator, 60);
-		driver.findElement(By.xpath(locator)).click();
+	public void click(WebElement element) {
+		waitForElementToBeClickable(element, 60);
+		element.click();
 		
-		log.debug("Clicked on element " + locator);
-		test.log(LogStatus.INFO, "Clicked on element " + locator);
+		log.debug("Clicked on element " + element);
+		test.log(LogStatus.INFO, "Clicked on element " + element);
 	}
 	
-	public void sendKeys(String locator, String value) {
-		waitForElementToBeVisible(locator, 60);
-		driver.findElement(By.xpath(locator)).sendKeys(value);
+	public void sendKeys(WebElement element, String value) {
+		element.sendKeys(value);
 		
-		log.debug("Entered data in element " + locator + " with value " + value);
-		test.log(LogStatus.INFO, "Entered data in element " + locator + " with value " + value);
+		log.debug("Entered data in element " + element + " with value " + value);
+		test.log(LogStatus.INFO, "Entered data in element " + element + " with value " + value);
 	}  
 	
 	public void moveToElement(WebElement element) {
@@ -160,26 +116,24 @@ public class BasePage {
 		test.log(LogStatus.INFO, "Moved to element: " + element.toString());
 	}
 	
-	public void waitForElementToBeVisible(String locator, int timeOutInSeconds) {
+	public void waitForElementToBeVisible(WebElement element, int timeOutInSeconds) {
 		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
+		wait.until(ExpectedConditions.visibilityOf(element)); 
 	}
 	
-	public void waitForElementToBeClickable(String locator, int timeOutInSeconds) {
+	public void waitForElementToBeClickable(WebElement element, int timeOutInSeconds) {
 		WebDriverWait wait = new WebDriverWait(driver, 60);
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
+		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
-	public boolean isElementPresent(String locator) {
-		try {
-			waitForElementToBeVisible(locator, 60);
-			driver.findElement(By.xpath(locator));
-			log.debug("Found element: " + locator + " on the page.");
-			test.log(LogStatus.INFO, "Found element: " + locator + " on the page.");
-			return true;
-		} catch (Exception e) {
-			e.printStackTrace();
-			return false;
+	public boolean isElementPresent(WebElement element) {
+		waitForElementToBeVisible(element, 60);
+		
+		boolean isElementFound = element.isDisplayed();
+		if(isElementFound == true) {
+			log.debug("Found element: " + element + " on the page.");
+			test.log(LogStatus.INFO, "Found element: " + element + " on the page.");
 		}
+		return isElementFound;
 	}
 }
