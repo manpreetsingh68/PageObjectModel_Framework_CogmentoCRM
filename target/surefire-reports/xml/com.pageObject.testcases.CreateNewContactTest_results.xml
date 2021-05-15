@@ -4,13 +4,13 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="179.418">
+           time="220.267">
   <properties />
   
   
-            <testcase name="createNewContactTest" time="44.204" classname="com.pageObject.testcases.CreateNewContactTest" />
-                <testcase name="createNewContactTest" time="44.688" classname="com.pageObject.testcases.CreateNewContactTest" />
-                <testcase name="createNewContactTest" time="45.243" classname="com.pageObject.testcases.CreateNewContactTest" />
-                <testcase name="createNewContactTest" time="45.283" classname="com.pageObject.testcases.CreateNewContactTest" />
+            <testcase name="createNewContactTest" time="46.742" classname="com.pageObject.testcases.CreateNewContactTest" />
+                <testcase name="createNewContactTest" time="84.828" classname="com.pageObject.testcases.CreateNewContactTest" />
+                <testcase name="createNewContactTest" time="44.881" classname="com.pageObject.testcases.CreateNewContactTest" />
+                <testcase name="createNewContactTest" time="43.816" classname="com.pageObject.testcases.CreateNewContactTest" />
       
 </testsuite>

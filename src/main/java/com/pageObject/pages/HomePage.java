@@ -23,6 +23,11 @@ public class HomePage extends BasePage {
 	}
 	
 	public void logoutOfApplication() {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e1) {
+			e1.printStackTrace();
+		}
 		waitForElementToBeVisible(btnSettingsGear, 60);
 		click(btnSettingsGear);
 		click(lnkLogOut);

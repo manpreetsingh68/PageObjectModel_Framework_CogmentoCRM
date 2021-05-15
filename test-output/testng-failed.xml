@@ -13,22 +13,10 @@
         <methods>
           <include name="tearDown"/>
           <include name="loginToApp"/>
-          <include name="createNewContactTest" invocation-numbers="0"/>
+          <include name="createNewContactTest"/>
           <include name="logoutOfApp"/>
         </methods>
       </class> <!-- com.pageObject.testcases.CreateNewContactTest -->
     </classes>
   </test> <!-- Add Contacts Test(failed) -->
-  <test thread-count="5" name="Add Deal Test(failed)">
-    <classes>
-      <class name="com.pageObject.testcases.CreateNewDealTest">
-        <methods>
-          <include name="createNewDealTest"/>
-          <include name="tearDown"/>
-          <include name="loginToApp"/>
-          <include name="logoutOfApp"/>
-        </methods>
-      </class> <!-- com.pageObject.testcases.CreateNewDealTest -->
-    </classes>
-  </test> <!-- Add Deal Test(failed) -->
 </suite> <!-- Failed suite [Cogmento Suite] -->

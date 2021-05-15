@@ -1,107 +1,107 @@
-12/05/2021 16:37:41 devpinoyLogger Config File loaded!
-12/05/2021 16:37:47 devpinoyLogger Firefox browser launched!
-12/05/2021 16:37:48 devpinoyLogger Navigated to : https://ui.cogmento.com/
-12/05/2021 16:37:55 devpinoyLogger Logged into application
-12/05/2021 16:37:56 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:37:56 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //a[@class='item'][@href='/contacts']]
-12/05/2021 16:37:57 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Contacts']]
-12/05/2021 16:38:17 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
-12/05/2021 16:38:38 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='first_name']] with value Bob
-12/05/2021 16:38:39 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='last_name']] with value Marley
-12/05/2021 16:38:39 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //div[@name='company']//input] with value Microsoft
-12/05/2021 16:38:40 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //button[text()='Save']]
-12/05/2021 16:38:40 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:38:41 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: (//i[@class='settings icon'])[1]]
-12/05/2021 16:38:41 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Log Out']]
-12/05/2021 16:38:41 devpinoyLogger Logged out of application
-12/05/2021 16:38:52 devpinoyLogger Logged into application
-12/05/2021 16:38:52 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:38:53 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //a[@class='item'][@href='/contacts']]
-12/05/2021 16:38:53 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Contacts']]
-12/05/2021 16:39:14 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
-12/05/2021 16:39:34 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='first_name']] with value John
-12/05/2021 16:39:35 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='last_name']] with value Smith
-12/05/2021 16:39:35 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //div[@name='company']//input] with value Google
-12/05/2021 16:39:36 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //button[text()='Save']]
-12/05/2021 16:39:36 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:39:36 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: (//i[@class='settings icon'])[1]]
-12/05/2021 16:39:58 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Log Out']'
-12/05/2021 16:40:18 devpinoyLogger Logged out of application
-12/05/2021 16:40:28 devpinoyLogger Logged into application
-12/05/2021 16:40:29 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:40:29 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //a[@class='item'][@href='/contacts']]
-12/05/2021 16:40:29 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Contacts']]
-12/05/2021 16:40:50 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
-12/05/2021 16:41:11 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='first_name']] with value Mike
-12/05/2021 16:41:12 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='last_name']] with value Jones
-12/05/2021 16:41:12 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //div[@name='company']//input] with value FIS
-12/05/2021 16:41:13 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //button[text()='Save']]
-12/05/2021 16:41:13 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:41:14 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: (//i[@class='settings icon'])[1]]
-12/05/2021 16:41:14 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Log Out']]
-12/05/2021 16:41:14 devpinoyLogger Logged out of application
-12/05/2021 16:41:24 devpinoyLogger Logged into application
-12/05/2021 16:41:25 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:41:25 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //a[@class='item'][@href='/contacts']]
-12/05/2021 16:41:26 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Contacts']]
-12/05/2021 16:41:46 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
-12/05/2021 16:42:08 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='first_name']] with value Phil
-12/05/2021 16:42:09 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='last_name']] with value Murray
-12/05/2021 16:42:09 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //div[@name='company']//input] with value Facebook
-12/05/2021 16:42:09 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //button[text()='Save']]
-12/05/2021 16:42:10 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:42:10 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: (//i[@class='settings icon'])[1]]
-12/05/2021 16:42:11 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Log Out']]
-12/05/2021 16:42:11 devpinoyLogger Logged out of application
-12/05/2021 16:42:21 devpinoyLogger Logged into application
-12/05/2021 16:42:22 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:42:22 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //a[@class='item'][@href='/deals']]
-12/05/2021 16:42:22 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Deals']]
-12/05/2021 16:42:43 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
-12/05/2021 16:43:03 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='title']] with value Automobile
-12/05/2021 16:43:03 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //div[@name='company']//input] with value Tesla
-12/05/2021 16:43:04 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //textarea[@name='description']] with value Battery operated cars
-12/05/2021 16:43:04 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //button[text()='Save']]
-12/05/2021 16:43:04 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:43:05 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: (//i[@class='settings icon'])[1]]
-12/05/2021 16:43:05 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Log Out']]
-12/05/2021 16:43:05 devpinoyLogger Logged out of application
-12/05/2021 16:43:16 devpinoyLogger Logged into application
-12/05/2021 16:43:16 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:43:16 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //a[@class='item'][@href='/deals']]
-12/05/2021 16:43:17 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Deals']]
-12/05/2021 16:43:37 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
-12/05/2021 16:43:58 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='title']] with value Aviation
-12/05/2021 16:43:58 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //div[@name='company']//input] with value SpaceX
-12/05/2021 16:43:58 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //textarea[@name='description']] with value Starship for better future
-12/05/2021 16:43:59 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //button[text()='Save']]
-12/05/2021 16:43:59 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:44:00 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: (//i[@class='settings icon'])[1]]
-12/05/2021 16:44:00 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Log Out']]
-12/05/2021 16:44:00 devpinoyLogger Logged out of application
-12/05/2021 16:44:10 devpinoyLogger Logged into application
-12/05/2021 16:44:11 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:44:11 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //a[@class='item'][@href='/deals']]
-12/05/2021 16:44:12 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Deals']]
-12/05/2021 16:44:32 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
-12/05/2021 16:44:53 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='title']] with value Food manufacuring
-12/05/2021 16:44:53 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //div[@name='company']//input] with value Nestle
-12/05/2021 16:44:53 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //textarea[@name='description']] with value Making Maggi since generations
-12/05/2021 16:44:54 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //button[text()='Save']]
-12/05/2021 16:44:54 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:44:54 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: (//i[@class='settings icon'])[1]]
-12/05/2021 16:44:55 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Log Out']]
-12/05/2021 16:44:55 devpinoyLogger Logged out of application
-12/05/2021 16:45:05 devpinoyLogger Logged into application
-12/05/2021 16:45:06 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:45:06 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //a[@class='item'][@href='/deals']]
-12/05/2021 16:45:08 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Deals']]
-12/05/2021 16:45:29 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
-12/05/2021 16:45:49 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //input[@name='title']] with value Information Technology
-12/05/2021 16:45:49 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //div[@name='company']//input] with value FIS
-12/05/2021 16:45:50 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //textarea[@name='description']] with value My existing company
-12/05/2021 16:45:50 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //button[text()='Save']]
-12/05/2021 16:45:50 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Home']//preceding::i] on the page.
-12/05/2021 16:45:51 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: (//i[@class='settings icon'])[1]]
-12/05/2021 16:45:51 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (6bd4dcfc-943b-4b87-bc16-2f06aac2104c)] -> xpath: //span[text()='Log Out']]
-12/05/2021 16:45:51 devpinoyLogger Logged out of application
+15/05/2021 13:31:26 devpinoyLogger Config File loaded!
+15/05/2021 13:31:34 devpinoyLogger Firefox browser launched!
+15/05/2021 13:31:35 devpinoyLogger Navigated to : https://ui.cogmento.com/
+15/05/2021 13:31:41 devpinoyLogger Logged into application
+15/05/2021 13:31:42 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:31:43 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //a[@class='item'][@href='/contacts']]
+15/05/2021 13:31:43 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Contacts']]
+15/05/2021 13:32:04 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+15/05/2021 13:32:24 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='first_name']] with value Bob
+15/05/2021 13:32:25 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='last_name']] with value Marley
+15/05/2021 13:32:25 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //div[@name='company']//input] with value Microsoft
+15/05/2021 13:32:26 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //button[text()='Save']]
+15/05/2021 13:32:26 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:32:32 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: (//i[@class='settings icon'])[1]]
+15/05/2021 13:32:33 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Log Out']]
+15/05/2021 13:32:33 devpinoyLogger Logged out of application
+15/05/2021 13:32:43 devpinoyLogger Logged into application
+15/05/2021 13:32:44 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:32:47 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //a[@class='item'][@href='/contacts']]
+15/05/2021 13:32:47 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Contacts']]
+15/05/2021 13:33:08 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+15/05/2021 13:33:28 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='first_name']] with value John
+15/05/2021 13:33:29 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='last_name']] with value Smith
+15/05/2021 13:33:29 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //div[@name='company']//input] with value Google
+15/05/2021 13:33:30 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //button[text()='Save']]
+15/05/2021 13:33:30 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:33:35 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: (//i[@class='settings icon'])[1]]
+15/05/2021 13:33:36 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Log Out']]
+15/05/2021 13:33:36 devpinoyLogger Logged out of application
+15/05/2021 13:33:46 devpinoyLogger Logged into application
+15/05/2021 13:33:47 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:33:47 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //a[@class='item'][@href='/contacts']]
+15/05/2021 13:33:47 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Contacts']]
+15/05/2021 13:34:08 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+15/05/2021 13:34:29 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='first_name']] with value Mike
+15/05/2021 13:34:29 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='last_name']] with value Jones
+15/05/2021 13:34:29 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //div[@name='company']//input] with value FIS
+15/05/2021 13:34:30 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //button[text()='Save']]
+15/05/2021 13:34:30 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:34:35 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: (//i[@class='settings icon'])[1]]
+15/05/2021 13:34:36 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Log Out']]
+15/05/2021 13:34:36 devpinoyLogger Logged out of application
+15/05/2021 13:34:46 devpinoyLogger Logged into application
+15/05/2021 13:34:47 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:34:47 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //a[@class='item'][@href='/contacts']]
+15/05/2021 13:34:47 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Contacts']]
+15/05/2021 13:35:08 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+15/05/2021 13:35:29 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='first_name']] with value Phil
+15/05/2021 13:35:29 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='last_name']] with value Murray
+15/05/2021 13:35:29 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //div[@name='company']//input] with value Facebook
+15/05/2021 13:35:51 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Save']'
+15/05/2021 13:36:11 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:36:16 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: (//i[@class='settings icon'])[1]]
+15/05/2021 13:36:17 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Log Out']]
+15/05/2021 13:36:17 devpinoyLogger Logged out of application
+15/05/2021 13:36:27 devpinoyLogger Logged into application
+15/05/2021 13:36:28 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:36:28 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //a[@class='item'][@href='/deals']]
+15/05/2021 13:36:29 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Deals']]
+15/05/2021 13:36:49 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+15/05/2021 13:37:10 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='title']] with value Automobile
+15/05/2021 13:37:10 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //div[@name='company']//input] with value Tesla
+15/05/2021 13:37:10 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //textarea[@name='description']] with value Battery operated cars
+15/05/2021 13:37:11 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //button[text()='Save']]
+15/05/2021 13:37:11 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:37:17 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: (//i[@class='settings icon'])[1]]
+15/05/2021 13:37:17 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Log Out']]
+15/05/2021 13:37:17 devpinoyLogger Logged out of application
+15/05/2021 13:37:27 devpinoyLogger Logged into application
+15/05/2021 13:37:28 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:37:28 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //a[@class='item'][@href='/deals']]
+15/05/2021 13:37:29 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Deals']]
+15/05/2021 13:37:49 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+15/05/2021 13:38:10 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='title']] with value Aviation
+15/05/2021 13:38:10 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //div[@name='company']//input] with value SpaceX
+15/05/2021 13:38:10 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //textarea[@name='description']] with value Starship for better future
+15/05/2021 13:38:11 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //button[text()='Save']]
+15/05/2021 13:38:11 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:38:17 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: (//i[@class='settings icon'])[1]]
+15/05/2021 13:38:17 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Log Out']]
+15/05/2021 13:38:17 devpinoyLogger Logged out of application
+15/05/2021 13:38:27 devpinoyLogger Logged into application
+15/05/2021 13:38:28 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:38:28 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //a[@class='item'][@href='/deals']]
+15/05/2021 13:38:31 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Deals']]
+15/05/2021 13:38:51 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+15/05/2021 13:39:12 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='title']] with value Food manufacuring
+15/05/2021 13:39:12 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //div[@name='company']//input] with value Nestle
+15/05/2021 13:39:13 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //textarea[@name='description']] with value Making Maggi since generations
+15/05/2021 13:39:13 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //button[text()='Save']]
+15/05/2021 13:39:13 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:39:19 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: (//i[@class='settings icon'])[1]]
+15/05/2021 13:39:19 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Log Out']]
+15/05/2021 13:39:19 devpinoyLogger Logged out of application
+15/05/2021 13:39:30 devpinoyLogger Logged into application
+15/05/2021 13:39:31 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:39:31 devpinoyLogger Moved to element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //a[@class='item'][@href='/deals']]
+15/05/2021 13:39:32 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Deals']]
+15/05/2021 13:39:52 devpinoyLogger Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+15/05/2021 13:40:13 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //input[@name='title']] with value Information Technology
+15/05/2021 13:40:13 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //div[@name='company']//input] with value FIS
+15/05/2021 13:40:14 devpinoyLogger Entered data in element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //textarea[@name='description']] with value My existing company
+15/05/2021 13:40:15 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //button[text()='Save']]
+15/05/2021 13:40:15 devpinoyLogger Found element: [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Home']//preceding::i] on the page.
+15/05/2021 13:40:21 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: (//i[@class='settings icon'])[1]]
+15/05/2021 13:40:21 devpinoyLogger Clicked on element [[FirefoxDriver: firefox on WINDOWS (46c76948-4488-4dbf-8390-8e73a57146fb)] -> xpath: //span[text()='Log Out']]
+15/05/2021 13:40:21 devpinoyLogger Logged out of application
